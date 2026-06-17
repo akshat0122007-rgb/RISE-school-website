@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RISE - Rising Innovative School for Excellence</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f5f7fb;color:#333}
+nav{
+background:#0f172a;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+position:sticky;
+top:0;
+z-index:1000;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1400&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+.hero h1{font-size:60px}
+.hero h2{
+    color:white !important;
+}
+.hero p{font-size:20px;margin:15px 0}
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:#f59e0b;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+margin:5px;
+}
+section{padding:70px 8%}
+h2{text-align:center;margin-bottom:30px;color:#0f172a}
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;
+}
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+.stat{
+background:#2563eb;
+color:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+}
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:12px;
+}
+.contact{
+background:#0f172a;
+color:white;
+padding:50px;
+border-radius:20px;
+text-align:center;
+}
+input,textarea{
+width:100%;
+padding:12px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:8px;
+}
+button{
+padding:12px 25px;
+background:#2563eb;
+border:none;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+#chatBox{
+height:220px;
+overflow-y:auto;
+background:#eef2ff;
+padding:10px;
+border-radius:10px;
+margin-bottom:10px;
+}
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+}
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:24px;
+text-decoration:none;
+}
+#videoContainer video{
+    width:100%;
+    max-width:800px;
+    height:auto;
+    display:block;
+    margin:15px auto;
+    border-radius:12px;
+<div style="margin-top:20px;">
+
+
+</div>
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div><b>RISE SCHOOL</b></div>
+<div>
+<a href="#about">About</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<div>
+<h1>RISE</h1>
+<h2>Rising Innovative School for Excellence</h2>
+<p>Sonpur Road, Harrai | Nursery to Class 8</p>
+<p>Technology • Academics • Sports • Character Building</p>
+
+<a href="#admission" class="btn">Enroll Now</a>
+<a href="tel:9098045561" class="btn">Call 9098045561</a>
+</div>
+</section>
+
+<section id="about">
+<h2>Why Choose RISE?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Excellent Results</h3>
+<p>Strong performance in Class 5th and 8th Board examinations.</p>
+</div>
+
+<div class="card">
+<h3>Technology Focused</h3>
+<p>Modern learning methods and digital exposure.</p>
+</div>
+
+<div class="card">
+<h3>All Round Development</h3>
+<p>Academics, sports, leadership and cultural growth.</p>
+</div>
+
+<div class="card">
+<h3>Safe Environment</h3>
+<p>Discipline, values and student-centered learning.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>RISE Achievements</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h1>5th</h1>
+<p>Board Excellence</p>
+</div>
+
+<div class="stat">
+<h1>8th</h1>
+<p>Board Excellence</p>
+</div>
+
+<div class="stat">
+<h1>100%</h1>
+<p>Student Growth Focus</p>
+</div>
+
+<div class="stat">
+<h1>360°</h1>
+<p>Development</p>
+</div>
+
+</div>
+</section>
+
+<section id="gallery">
+<h2>School Gallery</h2>
+
+<div class="gallery">
+
+<img src="photo1.jpg.jpg">
+<img src="photo2.jpg.webp">
+<img src="photo3.jpg.webp">
+<img src="photo4.jpg.webp">
+<img src="photo5.jpg.jpg">
+<img src="photo6.jpg.webp">
+<img src="photo7.jpg">
+<img src="photo8.jpg">
+<img src="photo9.jpg">
+<img src="photo10.jpg">
+<img src="photo11.jpg">
+<img src="photo12.jpg">
+<img src="photo13.jpg">
+<img src="photo14.jpg">
+<img src="photo15.jpg">
+<img src="photo16.jpg">
+<img src="photo17.jpg">
+<img src="photo18.jpg">
+<img src="photo19.jpg">
+<img src="photo20.jpg">
+<img src="photo21.jpg">
+<img src="photo22.jpg">
+<img src="photo23.jpg">
+</div>
+
+<p style="text-align:center;margin-top:20px;">
+Put your school photos in the same folder and rename them
+photo1.jpg, photo2.jpg, etc.
+</p>
+
+</section>
+
+<section>
+
+<h2>School Videos and Teachers Lectures</h2>
+
+<div class="card">
+
+<iframe
+width="100%"
+height="500"
+src="https://www.youtube.com/embed/z8WSdSMc08s"
+title="RISE School Video"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+
+<p>
+Teachers can upload lectures, notes, videos and PDFs.
+</p>
+
+</div>
+
+
+</div>
+</section>
+
+<section>
+<h2>Parent Assistant</h2>
+
+<div class="card">
+
+<div id="chatBox">
+<b>RISE Assistant:</b>
+Welcome to RISE School. Ask about admissions, results,
+activities, location or contact.
+</div>
+
+<input id="userInput"
+       placeholder="Type your question"
+       onkeypress="if(event.key==='Enter') askBot()">
+
+<button onclick="askBot()">Send</button>
+</div>
+
+</section>
+
+<section id="admission">
+
+<div class="contact">
+
+<h2 style="color:white;">Admissions Open</h2>
+
+<p>
+Nursery to Class 8
+</p>
+
+<br>
+
+<p>
+📍 Sonpur Road, Harrai
+</p>
+
+<p>
+📞 9098045561
+</p>
+
+<br>
+
+<a href="tel:9098045561" class="btn">
+Call For Admission
+</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Location</h2>
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117852.95152671119!2d79.05384063720702!3d22.620032351779223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397ff33e9a334dd1%3A0x70fb4726c13e3fb2!2sRISE%20(%20Rising%20Innovative%20School%20for%20Excellence%20)!5e0!3m2!1sen!2sin!4v1781504033605!5m2!1sen!2sin"
+width="100%"
+height="450"
+style="border:0;border-radius:15px;"
+allowfullscreen=""
+loading="lazy"
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+</section>
+
+<section id="contact">
+
+<div class="contact">
+
+<h2 style="color:white;">Contact Us</h2>
+
+<p>
+RISE - Rising Innovative School for Excellence
+</p>
+
+<p>
+Sonpur Road, Harrai
+</p>
+
+<p>
+📞 9098045561
+</p>
+
+<p>
+Admissions Open Now
+</p>
+
+<br>
+
+<a href="tel:9098045561" class="btn">
+Enroll Now
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2025 RISE - Rising Innovative School for Excellence
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/919098045561"
+target="_blank">💬</a>
+<script>
+
+
+    let container = document.getElementById("videoContainer");
+
+    container.innerHTML = "";
+
+    Array.from(this.files).forEach(file => {
+
+        let video = document.createElement("video");
+
+        video.src = URL.createObjectURL(file);
+
+        video.controls = true;
+
+        video.style.width = "100%";
+        video.style.height = "auto";
+
+        video.style.marginTop = "15px";
+
+        container.appendChild(video);
+
+    });
+
+});
+
+</script>
+
+<script>
+function askBot() {
+
+    let input = document.getElementById("userInput").value;
+
+if(input.trim() === ""){
+    return;
+}
+
+    let q = input.toLowerCase();
+
+    let answer = "Please call 9098045561 for more information.";
+
+   if(q.includes("welcome") || q.includes("hello") || q.includes("hi")) {
+    answer = "Namaste! Welcome to RISE – Rising Innovative School for Excellence. How may I help you regarding admissions, academics, facilities, or enrollment?";
+}
+
+else if(q.includes("school name")) {
+    answer = "The full name of our school is RISE – Rising Innovative School for Excellence.";
+}
+
+else if(q.includes("admission process")) {
+    answer = "Admission process: Fill the admission form, submit required documents, pay fees, and the student appears for a basic assessment.";
+}
+
+else if(q.includes("admission") || q.includes("enroll")) {
+    answer = "Admissions are open until 30 July. Students from Nursery to Class 8 can apply. Required documents: Birth Certificate and Transfer Certificate (if applicable).";
+}
+
+
+else if(q.includes("documents")) {
+    answer = "Required documents include Birth Certificate and Transfer Certificate (if applicable).";
+}
+
+else if(q.includes("class") || q.includes("classes")) {
+    answer = "RISE School offers classes from Nursery to Class 8.";
+}
+
+else if(q.includes("board") || q.includes("curriculum")) {
+    answer = "Our teaching follows the NCERT curriculum and focuses on strong academic foundations.";
+}
+
+else if(q.includes("subjects")) {
+    answer = "Students study NCERT subjects along with General Knowledge (GK) and value-based learning.";
+}
+
+else if(q.includes("timing") || q.includes("school time")) {
+    answer = "School timings are generally from 10:00 AM to 4:00 PM.";
+}
+
+else if(q.includes("address") || q.includes("location")) {
+    answer = "RISE School is located on Sonpur Road, Harrai.";
+}
+
+else if(q.includes("contact") || q.includes("phone") || q.includes("number")) {
+    answer = "You can contact RISE School at 9098045561.";
+}
+
+else if(q.includes("fees") || q.includes("fee")) {
+    answer = "For fee details, please call 9098045561.";
+}
+
+else if(q.includes("teacher") || q.includes("teachers")) {
+    answer = "Our teachers are experienced, caring, and student-friendly. They focus on both academic and personal development.";
+}
+
+else if(q.includes("sports")) {
+    answer = "RISE School encourages sports participation and physical fitness activities for students.";
+}
+
+else if(q.includes("activity") || q.includes("activities")) {
+    answer = "Students participate in competitions, cultural programs, sports events, and extracurricular activities throughout the year.";
+}
+
+else if(q.includes("library")) {
+    answer = "Yes, the school has a library to encourage reading and learning.";
+}
+
+else if(q.includes("smart class") || q.includes("smart classroom")) {
+    answer = "Yes, smart classrooms and audio-visual learning facilities are available.";
+}
+
+else if(q.includes("cctv")) {
+    answer = "The campus is monitored using CCTV for student safety.";
+}
+
+else if(q.includes("water")) {
+    answer = "Safe drinking water facilities are available for students.";
+}
+
+else if(q.includes("transport") || q.includes("bus") || q.includes("van")) {
+    answer = "Transport facilities including bus and van services are available.";
+}
+
+else if(q.includes("result") || q.includes("results")) {
+    answer = "RISE School has a strong academic record with excellent board examination results and a high success rate.";
+}
+
+else if(q.includes("achievement") || q.includes("award")) {
+    answer = "Students have earned recognition in academics, sports, and extracurricular activities.";
+}
+
+else if(q.includes("mission")) {
+    answer = "Our mission is to educate, innovate, and develop capable students who contribute positively to the nation.";
+}
+else if(q.includes("values")) {
+    answer = "We focus on moral values, discipline, confidence, leadership, and overall personality development.";
+}
+else {
+    answer = "I can help with admissions, fees, classes, facilities, transport, results, contact details, and school information. Please ask a question.";
+}
+
+document.getElementById("chatBox").innerHTML +=
+    "<br><br><b>You:</b> " + input +
+    "<br><b>RISE Assistant:</b> " + answer;
+
+document.getElementById("chatBox").scrollTop =
+    document.getElementById("chatBox").scrollHeight;
+
+document.getElementById("userInput").value = "";
+}
+
+</script>
+</body>
+</html>
